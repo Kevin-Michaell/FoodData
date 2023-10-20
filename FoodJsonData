@@ -5,7 +5,7 @@
       "category": "Italian",
       "calories": 450,
       "ingredients": ["Pasta", "Beef Sauce", "Tomato", "Parmesan Cheese"],
-      "price": 14.99
+      "price": "14.99"
     },
     {
       "name": "Sushi",
