@@ -3,9 +3,9 @@
     {
       "name": "Spaghetti Bolognese",
       "category": "Italian",
-      "calories": 450,
+      "calories": 420,
       "ingredients": ["Pasta", "Beef Sauce", "Tomato", "Parmesan Cheese"],
-      "price": 14.99
+      "price": 14.98
     },
     {
       "name": "Sushi",
