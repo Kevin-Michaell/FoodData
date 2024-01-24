@@ -1,196 +1,179 @@
 {
-  "foods": [
-    {
-      "name": "Spaghetti Bolognese",
-      "category": "Italian",
-      "calories": 420,
-      "ingredients": ["Pasta", "Beef Sauce", "Tomato", "Parmesan Cheese"],
-      "price": 14.98,
-      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2017_12/1203303/slow-cooked-spaghetti-bolognese-today-170323-tease.jpg"
-    },
-    {
-      "name": "Sushi",
-      "category": "Japanese",
-      "calories": 320,
-      "ingredients": ["Rice", "Fish (e.g., Salmon, Tuna)", "Seaweed", "Soy Sauce"],
-      "price": 19.99,
-      "image_url": "https://tse3.explicit.bing.net/th?id=OIP.fRriMRi0tnfgMWKOS0s-BQHaE2&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Hamburger",
-      "category": "American",
-      "calories": 550,
-      "ingredients": ["Bun", "Beef Patty", "Lettuce", "Tomato", "Pickles"],
-      "price": 8.99,
-      "image_url": "https://tse4.mm.bing.net/th?id=OIP.BhuwAfReplxdhwbuk--wgwHaFR&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Chicken Tikka Masala",
-      "category": "Indian",
-      "calories": 420,
-      "ingredients": ["Chicken", "Tomato Sauce", "Yogurt", "Rice"],
-      "price": 15.49,
-      "image_url": "https://tse1.mm.bing.net/th?id=OIP.cGNSp4StRwGJaQsj3lF3XwHaE8&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Taco",
-      "category": "Mexican",
-      "calories": 340,
-      "ingredients": ["Tortilla", "Ground Beef", "Lettuce", "Tomato", "Salsa"],
-      "price": 7.99,
-      "image_url": "https://tse1.mm.bing.net/th?id=OIP.NL7lSjuETQmUpHv1-r2IZwHaEo&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Caesar Salad",
-      "category": "American",
-      "calories": 220,
-      "ingredients": ["Romaine Lettuce", "Croutons", "Caesar Dressing", "Parmesan Cheese"],
-      "price": 10.49,
-      "image_url": "https://tse3.mm.bing.net/th?id=OIP.8UagT3WWGxruvIOqJTCPeQHaE8&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Pad Thai",
-      "category": "Thai",
-      "calories": 400,
-      "ingredients": ["Rice Noodles", "Shrimp", "Tofu", "Bean Sprouts", "Peanuts"],
-      "price": 13.99,
-      "image_url": "https://tse2.mm.bing.net/th?id=OIP.uMUsypPC1pgOcxoGeRM8rQHaJQ&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "BBQ Ribs",
-      "category": "American",
-      "calories": 680,
-      "ingredients": ["Pork Ribs", "BBQ Sauce", "Coleslaw", "Cornbread"],
-      "price": 18.99,
-      "image_url": "https://fthmb.tqn.com/BoTcrFduLSip49MUJ2qK1V7eRjc=/1931x1553/filters:fill(auto,1)/Barbecue-ribs-GettyImages-56110038-58beb9dc5f9b58af5c54b61b.jpg"
-    },
-    {
-      "name": "Margherita Pizza",
-      "category": "Italian",
-      "calories": 320,
-      "ingredients": ["Dough", "Tomato Sauce", "Mozzarella", "Basil"],
-      "price": 11.99,
-      "image_url": "https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,w_1460/https://storage.googleapis.com/gen-atmedia/3/2012/07/f2203c0e403286947dcf80815b656236fec71e88.jpeg"
-    },
-    {
-      "name": "Shrimp Scampi",
-      "category": "Italian",
-      "calories": 350,
-      "ingredients": ["Shrimp", "Garlic", "Butter", "Linguine"],
-      "price": 16.99,
-      "image_url": "https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,w_1460/https://storage.googleapis.com/gen-atmedia/3/2018/05/afb854bbaf7e0d4a3c46d5b65f2c04005f022a69.jpeg"
-    },
-    {
-      "name": "Sushi Roll",
-      "category": "Japanese",
-      "calories": 280,
-      "ingredients": ["Rice", "Fish (e.g., Yellowtail, Avocado", "Cucumber", "Soy Sauce"],
-      "price": 12.49,
-      "image_url": "https://tse1.mm.bing.net/th?id=OIP.vuaSiV1e-KiTXLFOjXtARgHaHa&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Pho",
-      "category": "Vietnamese",
-      "calories": 380,
-      "ingredients": ["Rice Noodles", "Beef Broth", "Beef Slices", "Lime", "Bean Sprouts"],
-      "price": 9.99,
-      "image_url": "https://tse3.mm.bing.net/th?id=OIP.jsdDxTtiXi56k37ZPzE7qwHaFv&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Chicken Alfredo",
-      "category": "Italian",
-      "calories": 550,
-      "ingredients": ["Fettuccine", "Chicken", "Alfredo Sauce", "Parmesan Cheese"],
-      "price": 15.99,
-      "image_url": "https://tse2.mm.bing.net/th?id=OIP.wE39qESzlq6oYOcFVPItpgHaLH&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Beef Stir-Fry",
-      "category": "Chinese",
-      "calories": 320,
-      "ingredients": ["Beef", "Mixed Vegetables", "Soy Sauce", "Rice"],
-      "price": 12.99,
-      "image_url": "https://tse2.mm.bing.net/th?id=OIP.f-htQvRt76vh9vD19xlKWAHaJ3&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Gyudon",
-      "category": "Japanese",
-      "calories": 420,
-      "ingredients": ["Thinly Sliced Beef", "Onions", "Soy Sauce", "Rice"],
-      "price": 11.49,
-      "image_url": "https://tse1.mm.bing.net/th?id=OIP.QoL7iJH2ZtwBA_2IsSLzDgHaEK&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Margarita Cocktail",
-      "category": "Beverage",
-      "calories": 220,
-      "ingredients": ["Tequila", "Lime Juice", "Triple Sec", "Salt Rim"],
-      "price": 8.99,
-      "image_url": "https://tse3.mm.bing.net/th?id=OIP.ug9_JiofAOZDOHVL3KCGzQHaHa&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Chicken Shawarma",
-      "category": "Middle Eastern",
-      "calories": 380,
-      "ingredients": ["Grilled Chicken", "Pita Bread", "Tahini Sauce", "Tomatoes"],
-      "price": 10.99,
-      "image_url": "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1200/https://lifeloveandgoodfood.com/wp-content/uploads/2020/04/Chicken-Shawarma_09_1200x1200.jpg"
-    },
-    {
-      "name": "Tiramisu",
-      "category": "Italian",
-      "calories": 320,
-      "ingredients": ["Ladyfingers", "Mascarpone", "Espresso", "Cocoa"],
-      "price": 7.99,
-      "image_url": "https://tse4.mm.bing.net/th?id=OIP.20UKuWOwLXuehSr2C65Y6QHaE8&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Biryani",
-      "category": "Indian",
-      "calories": 520,
-      "ingredients": ["Basmati Rice", "Chicken", "Spices", "Yogurt"],
-      "price": 16.49,
-      "image_url": "https://tse4.mm.bing.net/th?id=OIP.mdG75L7-kF--odmreC29WAHaFj&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Sushi Sashimi",
-      "category": "Japanese",
-      "calories": 250,
-      "ingredients": ["Assorted Fish (e.g., Tuna, Salmon)", "Wasabi", "Soy Sauce"],
-      "price": 22.99,
-      "image_url": "https://tse1.mm.bing.net/th?id=OIP.UHklmb473Lvoqo8QP9CRFgHaE8&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Mushroom Risotto",
-      "category": "Italian",
-      "calories": 380,
-      "ingredients": ["Arborio Rice", "Mushrooms", "White Wine", "Parmesan Cheese"],
-      "price": 13.49,
-      "image_url": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/35/1504128527-delish-mushroom-risotto.jpg"
-    },
-    {
-      "name": "Falafel Wrap",
-      "category": "Middle Eastern",
-      "calories": 320,
-      "ingredients": ["Falafel", "Pita Bread", "Tahini Sauce", "Lettuce", "Tomatoes"],
-      "price": 9.99,
-      "image_url": "https://tse4.mm.bing.net/th?id=OIP.gau8Mt47LRWlru4W0AmMTwHaLH&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Churros",
-      "category": "Spanish",
-      "calories": 250,
-      "ingredients": ["Choux Pastry", "Cinnamon Sugar", "Chocolate Sauce"],
-      "price": 5.99,
-      "image_url": "https://tse3.mm.bing.net/th?id=OIP.NfDAUQNqLiHGh0_rikEidgHaE8&pid=Api&P=0&h=220"
-    },
-    {
-      "name": "Beef and Broccoli",
-      "category": "Chinese",
-      "calories": 340,
-      "ingredients": ["Beef", "Broccoli", "Soy Sauce", "Rice"],
-      "price": 11.99,
-      "image_url": "https://tse3.mm.bing.net/th?id=OIP.YiE6bgc71A0g7X0CjdZMlAHaLH&pid=Api&P=0&h=220"
-    }
-  ]
+    "food_data": [
+        {
+            "AllResults": [
+                {
+                    "InformationNuggets": [
+                        {
+                            "NuggetKind": "FullDuplexQueries",
+                            "OrderedEntities": [
+                                {
+                                    "Confidence": "High",
+                                    "FaceAnimation": "",
+                                    "InteractionSequenceNumber": 0,
+                                    "OrderedEntityKind": "Item",
+                                    "Pose": "Head_Shake",
+                                    "Quantity": 1,
+                                    "Reference": {
+                                        "CatalogKind": "Restaurant",
+                                        "HasFocus": "true",
+                                        "ID": "ITEM-2527889",
+                                        "ImageURLs": [
+                                            "https://s3.amazonaws.com/toasttab/restaurants/restaurant-125916000000000000/menu/items/4/item-300000018221324904_1683751023.png"
+                                        ],
+                                        "Label": "Classic Cheeseburger",
+                                        "Price": 6.5,
+                                        "RestaurantEntityKind": "Item"
+                                    },
+                                    "RequiredModifierGroups": [
+                                        {
+                                            "DisplayName": "Choice of Cheese",
+                                            "RequiredModifierOptionEntities": [
+                                                {
+                                                    "OrderedEntityKind": "ModifierItem",
+                                                    "Reference": {
+                                                        "CatalogKind": "Restaurant",
+                                                        "ID": "ITEM-2527816",
+                                                        "Label": "Cheddar Cheese",
+                                                        "RestaurantEntityKind": "ModifierItem"
+                                                    }
+                                                },
+                                                {
+                                                    "OrderedEntityKind": "ModifierItem",
+                                                    "Reference": {
+                                                        "CatalogKind": "Restaurant",
+                                                        "ID": "ITEM-2527815",
+                                                        "Label": "American Cheese",
+                                                        "RestaurantEntityKind": "ModifierItem"
+                                                    }
+                                                },
+                                                {
+                                                    "OrderedEntityKind": "ModifierItem",
+                                                    "Reference": {
+                                                        "CatalogKind": "Restaurant",
+                                                        "ID": "ITEM-2527817",
+                                                        "Label": "No Cheese",
+                                                        "RestaurantEntityKind": "ModifierItem"
+                                                    }
+                                                },
+                                                {
+                                                    "OrderedEntityKind": "ModifierItem",
+                                                    "Reference": {
+                                                        "CatalogKind": "Restaurant",
+                                                        "ID": "ITEM-2527818",
+                                                        "Label": "Swiss Cheese",
+                                                        "RestaurantEntityKind": "ModifierItem"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "SelectedModifierOptionEntities": [
+                                        {
+                                            "OrderedEntityKind": "ModifierItem",
+                                            "Reference": {
+                                                "CatalogKind": "Restaurant",
+                                                "ID": "ITEM-2527816",
+                                                "Label": "Cheddar Cheese",
+                                                "RestaurantEntityKind": "ModifierItem"
+                                            }
+                                        }
+                                    ],
+                                    "UID": "5"
+                                },
+                                {
+                                    "Confidence": "High",
+                                    "InteractionSequenceNumber": 0,
+                                    "OrderedEntityKind": "Item",
+                                    "Quantity": 1,
+                                    "Reference": {
+                                        "CatalogKind": "Restaurant",
+                                        "ID": "ITEM-2527895",
+                                        "ImageURLs": [
+                                            "https://s3.amazonaws.com/toasttab/restaurants/restaurant-125916000000000000/menu/items/0/item-300000018220581030_1683751169.png"
+                                        ],
+                                        "Label": "French Fries",
+                                        "Price": 3.25,
+                                        "RestaurantEntityKind": "Item"
+                                    },
+                                    "RequiredModifierGroups": [],
+                                    "SelectedModifierOptionEntities": [],
+                                    "UID": "4"
+                                },
+                                {
+                                    "Confidence": "High",
+                                    "InteractionSequenceNumber": 0,
+                                    "OrderedEntityKind": "Item",
+                                    "Quantity": 1,
+                                    "Reference": {
+                                        "CatalogKind": "Restaurant",
+                                        "ID": "ITEM-2527904",
+                                        "ImageURLs": [
+                                            "https://s3.amazonaws.com/toasttab/restaurants/restaurant-125916000000000000/menu/items/8/item-300000018221526108_1683751287.png"
+                                        ],
+                                        "Label": "Coke",
+                                        "Price": 4.75,
+                                        "RestaurantEntityKind": "Item"
+                                    },
+                                    "RequiredModifierGroups": [],
+                                    "SelectedModifierOptionEntities": [
+                                        {
+                                            "Confidence": "High",
+                                            "InteractionSequenceNumber": 0,
+                                            "OrderedEntityKind": "Item",
+                                            "Reference": {
+                                                "ID": "ITEM-2527870",
+                                                "IsExplicit": "true",
+                                                "Label": "Large",
+                                                "Quantity": 1,
+                                                "RestaurantEntityKind": "Item"
+                                            },
+                                            "UID": "3"
+                                        }
+                                    ],
+                                    "UID": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "OrderNumber": 1,
+                    "OrderStatus": "INCOMPLETE",
+                    "ResponseAudioEncoding": "",
+                    "ResponseAudioURL": "",
+                    "SpokenResponseLong": "",
+                    "StatusMessages": [],
+                    "SuggestionBox": {
+                        "Items": [],
+                        "Title": ""
+                    },
+                    "Suggestions": [],
+                    "Transcription": "Large coke fries cheeseburger",
+                    "TranscriptionHighlightCoOrds": [
+                        [
+                            0,
+                            5
+                        ],
+                        [
+                            6,
+                            10
+                        ],
+                        [
+                            11,
+                            16
+                        ],
+                        [
+                            17,
+                            29
+                        ]
+                    ],
+                    "TransferStatus": "NO_ESCALATION",
+                    "UserVoiceDetected": "true",
+                    "WrittenResponseLong": ""
+                }
+            ],
+            "Format": "SoundHoundDuplexResult",
+            "FormatVersion": "1.0",
+            "Status": "OK"
+        }
+    ]
 }
